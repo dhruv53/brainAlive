@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "type":"lead",
+        "name":"Gaurav Dubey",
+        "stack":"Founder | Business strategy",
+        "url":"http://braina.live/images/team/gaurav-dubey.jpg"
+    },
+    {
+        "id":2,
+        "type":"lead",
+        "name":"Dr. Sujit Roy",
+        "stack":"Founding Advisor | Product Engineer",
+        "url":"http://braina.live/images/team/Sujit.jpg"
+    }
+]

@@ -1,0 +1,18 @@
+.box-col {
+  /* background-color: thistle; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  background-color: #ccc;
+  width: 70%;
+  aspect-ratio: 1;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.box img {
+  height: 100%;
+}

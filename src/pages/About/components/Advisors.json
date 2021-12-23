@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "type":"board",
+        "name":"Dr. Anwesha Khasnobish",
+        "stack":"BCI Technology",
+        "url":"http://braina.live/images/team/Anwesha.jpg"
+    },
+    {
+        "id":2,
+        "type":"board",
+        "name":"Dr. Anirban Chowdhury",
+        "stack":"Neural Engineer",
+        "url":"http://braina.live/images/team/Anirban.jpg"
+    },
+    {
+        "id":3,
+        "type":"board",
+        "name":"Artus Krohn Grimberghe",
+        "stack":"AI Enterprise Solutions",
+        "url":"http://braina.live/images/team/artus.jpg"
+    },
+    {
+        "id":4,
+        "type":"board",
+        "name":"Dr. Saugat Bhattacharyya",
+        "stack":"Brain Computer Interfacing",
+        "url":"http://braina.live/images/team/Saugat.JPG"
+    }
+]

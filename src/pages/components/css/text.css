@@ -1,0 +1,11 @@
+.text-col {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  text-align: justify;
+  padding: 25px;
+}

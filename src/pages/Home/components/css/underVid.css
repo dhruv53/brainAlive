@@ -1,0 +1,23 @@
+.underVid {
+  padding: 50px;
+  background-color: #f2fdff;
+}
+.rowContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  max-width: 800px !important;
+}
+
+.imgUserEng {
+  overflow: hidden !important;
+  border-radius: 15px !important;
+  padding: 0 !important;
+}
+.ig {
+  width: 75%;
+  border-radius: 15px !important;
+}

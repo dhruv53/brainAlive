@@ -1,0 +1,87 @@
+.NavBarColor {
+  background-color: white;
+  box-shadow: 0 4px 2px -2px #ccc;
+}
+
+.navSpace {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 30px;
+}
+.webColor {
+  background-color: #165b6b;
+}
+
+.round {
+  border-radius: 7px;
+  border-width: 0px;
+  padding: 5px 10px 5px 10px;
+  font-size: 12px;
+  box-shadow: 0px 5px 5px #ccc;
+}
+
+.whitetxt {
+  color: white;
+}
+.item {
+  width: 0%;
+  background-color: tomato;
+  transition: width 0.5s;
+
+  display: block;
+}
+.item:hover {
+  width: 100%;
+  background-color: blue;
+}
+.cen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.txt {
+  display: inline-block;
+}
+.txt::after {
+  content: "";
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: #c80e4f;
+  transition: all 0.25s ease;
+}
+.txt:hover::after {
+  width: 100%;
+}
+
+.me-auto a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #165b6b;
+}
+.me-auto a:link {
+  text-decoration: none;
+}
+.me-auto a:visited {
+  text-decoration: none;
+}
+.me-auto a:active {
+  text-decoration: underline !important;
+}
+.me-auto a:hover {
+  color: #165b6b;
+}
+#basic-nav-dropdown {
+  color: #165b6b;
+}
+
+.mr {
+  margin-left: 5px;
+  margin-right: 5px;
+}

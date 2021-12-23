@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title":"About Us",
+    "text": "At BrainAlive, we believe in data that facilitates new ways of understanding human engagement. We are the first company to combine neuroscience and compute vision to detect, reason and determine the causality of human engagement, as we inform the way humans engage in this distracted digital world.",
+    "url": "../../image/about.jpg"
+  },
+  {
+    "id": 2,
+    "title":"Mission",
+    "text":"Our mission at BrainAlive is to champion human potential by truly understanding the user state of mind and intent through the lens of vision and brain science. Powering this mission is our expertise in computer vision, neuroscience and deep learning technologies We strive to serve leading companies in the area of e-learning, web conferencing and digital media and entertainment.", 
+    "url":"../../image/mission.jpg"
+  }
+]

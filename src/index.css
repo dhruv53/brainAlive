@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+h1 {
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  letter-spacing: -0.1rem !important;
+  margin-top: 1.5rem !important;
+  color: #165b6b !important;
+}
+
+h2 {
+  font-weight: 400 !important;
+  line-height: 1.2 !important;
+  letter-spacing: -0.1rem !important;
+  margin-top: 1.5rem !important;
+  color: #165b6b !important;
+}
+p {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #65656e;
+}
