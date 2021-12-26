@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: "Montserrat", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -10,11 +11,11 @@ code {
     monospace;
 }
 h1 {
-  font-weight: 700 !important;
+  font-weight: 700;
   line-height: 1.2 !important;
   letter-spacing: -0.1rem !important;
   margin-top: 1.5rem !important;
-  color: #165b6b !important;
+  color: #165b6b;
 }
 
 h2 {
@@ -22,11 +23,51 @@ h2 {
   line-height: 1.2 !important;
   letter-spacing: -0.1rem !important;
   margin-top: 1.5rem !important;
-  color: #165b6b !important;
+  color: #165b6b;
 }
 p {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.6;
   color: #65656e;
+}
+
+.inputGroup{
+  border-bottom: 1px solid white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.inputGroup-icon{
+  width: 10%;
+}
+
+.inputGroup-input{
+  width: 90%;
+  background: none;
+  border: none;
+  color: white;
+  padding-bottom: 5%;
+}
+
+.input-option{
+  background-color: #00000085;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.submitButton{
+  width: 100%;
+  background: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+}
+
+.submitButton:hover{
+  background-color: white;
+  color: black;
 }

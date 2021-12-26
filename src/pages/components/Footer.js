@@ -12,7 +12,7 @@ import "./css/footer.css";
 function Footer() {
   return (
     <>
-      <Container className="section">
+      <Container fluid className="section">
         <Row>
           <Col md={3} className="sec1">
             <p className="noMarginBottom">
@@ -63,8 +63,6 @@ function Footer() {
             </div>
           </Col>
         </Row>
-      </Container>
-      <Container fluid>
         <Row className="copy">
           <Col>
             <p>© Copyright 2021 by Braina.live</p>
