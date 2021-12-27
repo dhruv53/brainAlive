@@ -11,6 +11,7 @@ function Vid() {
         playing={true}
         loop={true}
         className="topVid"
+        muted="muted"
       />
     </div>
   );
