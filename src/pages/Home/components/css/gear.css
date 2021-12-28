@@ -1,0 +1,43 @@
+.headModel {
+  background: linear-gradient(to right bottom, #65dfc9, #6cdbeb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.colorPallet button {
+  border: 0px;
+  box-shadow: 3px 3px 3px grey;
+  margin-left: 5px;
+  margin-top: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.headCanvas {
+  /* background-image: url("./assets/back.png"); */
+  width: 100% !important;
+  height: 60vh !important;
+  background-size: cover !important;
+}
+
+.glass {
+  width: 80%;
+  max-width: 748px;
+  background: linear-gradient(
+    to right top,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.2)
+  );
+  border-radius: 20px;
+  backdrop-filter: blur(2rem);
+  border: 1px solid rgba(194, 194, 194, 0.3);
+}
+
+@media only screen and (max-width: 400px) {
+  .glass {
+    width: 95%;
+  }
+}

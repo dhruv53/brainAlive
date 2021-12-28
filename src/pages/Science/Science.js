@@ -1,8 +1,11 @@
 import React from "react";
-// import ScienceImg from "./assets/science.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Feet from "./model/Feet";
+import Hand from "./model/Hand";
+import Math from "./model/Math";
+import World from "./model/World";
 import "./style.css";
 
 function Science() {
@@ -38,6 +41,24 @@ function Science() {
               your brain to understand the cerebral circuit activations for
               corresponding user activities.
             </h4>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="card">
+            <Feet />
+            <h5>Motor Movement- Feet</h5>
+          </Col>
+          <Col className="card">
+            <Hand />
+            <h5>Motor Movement- Hands</h5>
+          </Col>
+          <Col className="card">
+            <Math />
+            <h5>Mathematics and Logic</h5>
+          </Col>
+          <Col className="card">
+            <World />
+            <h5>Reading and Language</h5>
           </Col>
         </Row>
       </Container>

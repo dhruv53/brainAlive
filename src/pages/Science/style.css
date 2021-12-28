@@ -32,3 +32,14 @@
 .colSecond {
   padding-top: 50px;
 }
+
+.card {
+  margin: 15px;
+  /* background-color: pink; */
+  /* box-shadow: 3px 3px 3px #ccc; */
+}
+
+.card h5 {
+  color: black;
+  font-weight: 900;
+}
