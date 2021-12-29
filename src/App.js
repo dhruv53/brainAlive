@@ -1,4 +1,3 @@
-
 import React, { useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
@@ -14,6 +13,7 @@ import Contact from "./pages/Contact/Contact";
 import Science from "./pages/Science/Science";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ApplyJob from "./pages/ApplyJob/ApplyJob";
+
 function App() {
   useEffect(() => {
     AOS.init();

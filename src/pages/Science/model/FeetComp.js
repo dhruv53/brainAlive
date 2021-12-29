@@ -13,7 +13,7 @@ export default function Model({ ...props }) {
   useEffect(() => {
     actions.Left.play();
     actions.Right.play();
-  }, []);
+  });
   return (
     <group ref={group} {...props} dispose={null}>
       <mesh

@@ -1,7 +1,10 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { useGLTF } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import { proxy, useSnapshot } from "valtio";
+import { useSpring } from "@react-spring/core";
+import { a } from "@react-spring/three";
+
 const state = proxy({
   current: null,
   items: {
@@ -12,6 +15,7 @@ const state = proxy({
 export default function Model({ ...props }) {
   const group = useRef();
   const { nodes, materials } = useGLTF("/gearComp.glb");
+
   useFrame(() => {
     // group.current.rotation.y += 0.005;
     group.current.position.z = 1;
@@ -19,11 +23,22 @@ export default function Model({ ...props }) {
     group.current.position.x = 0;
     group.current.rotation.x = 0.15;
   });
+
   const snap = useSnapshot(state);
 
   useEffect(() => {
     state.items.cvr = props.mycol;
   }, [props.mycol]);
+
+  const [active, setActive] = useState(1);
+  const { scale } = useSpring({
+    scale: active ? -0.02 : -50,
+  });
+
+  const [active2, setActive2] = useState(1);
+  const { pos } = useSpring({
+    pos: active2 ? -0.2 : 50,
+  });
   return (
     <group ref={group} {...props} dispose={null}>
       <mesh
@@ -47,12 +62,14 @@ export default function Model({ ...props }) {
         rotation={[1.94, 0, 0]}
         scale={[1.6, 1.6, 1.6]}
       />
-      <mesh
+      <a.mesh
         geometry={nodes.fNirs.geometry}
         material={nodes.fNirs.material}
         position={[0, -0.02, 0]}
         rotation={[1.94, 0, 0]}
         scale={[1.6, 1.6, 1.6]}
+        position-y={scale}
+        onClick={() => setActive(!active)}
       />
       <mesh
         geometry={nodes.bottomCoverBack.geometry}
@@ -75,19 +92,23 @@ export default function Model({ ...props }) {
         rotation={[1.94, 0, 0]}
         scale={[1.6, 1.6, 1.6]}
       />
-      <mesh
+      <a.mesh
         geometry={nodes.electrode2.geometry}
         material={nodes.electrode2.material}
         position={[0, -0.02, 0]}
         rotation={[1.94, 0, 0]}
         scale={[1.6, 1.6, 1.6]}
+        position-y={pos}
+        onClick={() => setActive2(!active2)}
       />
-      <mesh
+      <a.mesh
         geometry={nodes.electrode1.geometry}
         material={nodes.electrode1.material}
         position={[0, -0.02, 0]}
         rotation={[1.94, 0, 0]}
         scale={[1.6, 1.6, 1.6]}
+        position-y={pos}
+        onClick={() => setActive2(!active2)}
       />
       <mesh
         geometry={nodes.cover3.geometry}
@@ -103,12 +124,14 @@ export default function Model({ ...props }) {
         rotation={[1.94, 0, 0]}
         scale={[1.6, 1.6, 1.6]}
       />
-      <mesh
+      <a.mesh
         geometry={nodes.electrode3.geometry}
         material={nodes.electrode3.material}
         position={[0, -0.02, 0]}
         rotation={[1.94, 0, 0]}
         scale={[1.6, 1.6, 1.6]}
+        position-y={pos}
+        onClick={() => setActive2(!active2)}
       />
       <mesh
         geometry={nodes.strip.geometry}

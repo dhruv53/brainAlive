@@ -63,13 +63,25 @@ function Career() {
               </div>
             </div>
             <div className="col-md-6" style={{ padding: "10%" }}>
-              <img className="rounded-images" src={Why1} width={"100%"} data-aos="fade-left" alt="" />
+              <img
+                className="rounded-images"
+                src={Why1}
+                width={"100%"}
+                data-aos="fade-left"
+                alt=""
+              />
             </div>
           </div>
 
           <div className="row">
             <div className="col-md-6" style={{ padding: "10%" }}>
-              <img className="rounded-images" src={Why2} width={"100%"} data-aos="fade-right" alt="" />
+              <img
+                className="rounded-images"
+                src={Why2}
+                width={"100%"}
+                data-aos="fade-right"
+                alt=""
+              />
             </div>
             <div className="col-md-6" style={{ padding: "10%" }}>
               <div data-aos="fade-left">
@@ -89,16 +101,28 @@ function Career() {
                 <p>
                   All work and no play makes Jack a dull boy , and so,
                   <ul>
-                    <li>Flexible work-hours policy?&#x2705;</li>
-                    <li>Group Yoga sessions on weekends?&#x2705;</li>
-                    <li>A gaming room with PS?&#x2705;</li>
+                    <li style={{ textAlign: "left" }}>
+                      Flexible work-hours policy? <span>✓</span>
+                    </li>
+                    <li style={{ textAlign: "left" }}>
+                      Group Yoga sessions on weekends? <span>✓</span>
+                    </li>
+                    <li style={{ textAlign: "left" }}>
+                      A gaming room with PS? <span>✓</span>
+                    </li>
                   </ul>
                   You name it and we have it.
                 </p>
               </div>
             </div>
             <div className="col-md-6" style={{ padding: "10%" }}>
-              <img className="rounded-images" src={Why3} width={"100%"} alt="" data-aos="fade-left" />
+              <img
+                className="rounded-images"
+                src={Why3}
+                width={"100%"}
+                alt=""
+                data-aos="fade-left"
+              />
             </div>
           </div>
         </div>
