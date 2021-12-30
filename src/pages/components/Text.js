@@ -5,8 +5,8 @@ function Text(props) {
   return (
     <Col className="text-col">
       <div className="content">
-        <h1>{props.title}</h1>
-        <p>{props.info}</p>
+        <h1 className="titleText">{props.title}</h1>
+        <p className="aboutParagraph">{props.info}</p>
       </div>
     </Col>
   );

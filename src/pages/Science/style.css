@@ -43,3 +43,6 @@
   color: black;
   font-weight: 900;
 }
+.scienceTopCol p {
+  color: white !important;
+}

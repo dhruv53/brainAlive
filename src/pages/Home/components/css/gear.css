@@ -24,8 +24,8 @@
 }
 
 .glass {
-  width: 80%;
-  max-width: 748px;
+  width: 100%;
+  /* max-width: 748px; */
   background: linear-gradient(
     to right top,
     rgba(255, 255, 255, 0.7),
@@ -49,4 +49,7 @@
 }
 .modal-body {
   padding: 0;
+}
+.modal-content {
+  border-radius: 20px !important;
 }

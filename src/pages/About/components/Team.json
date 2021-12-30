@@ -1,0 +1,86 @@
+[
+    {
+        "id":1,
+        "type":"Team",
+        "name":"Dr. Gaurav Garg",
+        "stack":"Machine Learning",
+        "url":"http://braina.live/images/team/Gauravgarg.jpg"
+    },
+    {
+        "id":2,
+        "type":"Team",
+        "name":"Mohammad Abbas Mehdi",
+        "stack":"Embedded Tech",
+        "url":"http://braina.live/images/team/Abbas.jpg"
+    },
+    {
+        "id":3,
+        "type":"Team",
+        "name":"Adhavan RK",
+        "stack":"Operations",
+        "url":"http://braina.live/images/team/Adhavan.jpeg"
+    },
+    {
+        "id":4,
+        "type":"Team",
+        "name":"Mayank Saxena",
+        "stack":"Quality Assurance",
+        "url":"http://braina.live/images/team/Mayank.jpg"
+    },
+    {
+        "id":5,
+        "type":"Team",
+        "name":"Aishwarya Gupta",
+        "stack":"Embedded Firmware",
+        "url":"http://braina.live/images/team/Aishwarya.jpg"
+    },
+    {
+        "id":6,
+        "type":"Team",
+        "name":"Sarthak Malik",
+        "stack":"Embedded Firmware",
+        "url":"http://braina.live/images/team/Sarthak.JPEG"
+    },
+    {
+        "id":7,
+        "type":"Team",
+        "name":"Aman Verma",
+        "stack":"Hardware",
+        "url":"http://braina.live/images/team/Aman.jpg"
+    },
+    {
+        "id":8,
+        "type":"Team",
+        "name":"Mehak Bahl",
+        "stack":"Product",
+        "url":"http://braina.live/images/team/mehak.jpg"
+    },
+    {
+        "id":9,
+        "type":"Team",
+        "name":"Shourya Pratap",
+        "stack":"Machine Learning",
+        "url":"http://braina.live/images/team/shourya.jpg"
+    },
+    {
+        "id":10,
+        "type":"Team",
+        "name":"Srinjay Bhaatacharya",
+        "stack":"Hardware",
+        "url":"http://braina.live/images/team/srinjay.jpg"
+    },
+    {
+        "id":11,
+        "type":"Team",
+        "name":"Vidya Vaishnavi",
+        "stack":"Embedded Tech",
+        "url":"http://braina.live/images/team/vidya.png"
+    },
+    {
+        "id":12,
+        "type":"Team",
+        "name":"Rishav Verma",
+        "stack":"Product",
+        "url":"https://braina.live/images/team/rishav.png"
+    }
+]

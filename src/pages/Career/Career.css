@@ -1,48 +1,56 @@
-.career-header{
-    height: 100vh;
-    width: 100%;
-    background-image: url('../../image/Hiring.jpg');
-    background-size: 110%;
-    background-position: center;
-    padding: 0;
-    margin: 0;
+.career-header {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../image/Hiring.jpg");
+  background-size: 110%;
+  background-position: center;
+  padding: 0;
+  margin: 0;
 }
 
-.career-header-overlay{
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20%;
+.career-header-overlay {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20%;
 }
 
-.career-header-title{
-    color: #b64572;
-    font-size: 4rem;
-    font-weight: 700;
-    line-height: 1.1;
-    letter-spacing: -.1rem;
+.career-header-title {
+  color: #b64572;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.1rem;
 }
 
-.career-header-text{
-    color: #fff;
-    font-size: 30px;
-    line-height: 35px;
-    text-transform: capitalize;
-    font-weight: 500;
+.career-header-text {
+  color: #fff;
+  font-size: 30px;
+  line-height: 35px;
+  text-transform: capitalize;
+  font-weight: 500;
 }
 
-.openings{
-    background-color: #f9feff;
+.openings {
+  background-color: #f9feff;
 }
-.job-desc-button{
-    color: #fff;
-    text-decoration: none;
-    margin-top: 100px;
-    margin-top: auto;
-    margin-bottom: 0;
+.job-desc-button {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 100px;
+  margin-top: auto;
+  margin-bottom: 0;
 }
 
-.rounded-images{
-    border-radius: 25px;
+.rounded-images {
+  border-radius: 25px;
+}
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: "✓";
+  color: "blue";
 }

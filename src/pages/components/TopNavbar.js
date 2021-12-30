@@ -21,18 +21,18 @@ function TopNavbar() {
             </Link>
             <NavDropdown title="Company" id="basic-nav-dropdown" className="mr">
               <NavDropdown.Item>
-                <Link to="/about">
+                <Link to="/about" className="lnk">
                   <span className="txt">About</span>
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link to="/career">
+                <Link to="/career" className="lnk">
                   <span className="txt">Career</span>
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item>
-                <Link to="/contact">
+                <Link to="/contact" className="lnk">
                   <span className="txt">Contact</span>
                 </Link>
               </NavDropdown.Item>
@@ -40,7 +40,10 @@ function TopNavbar() {
             <Link to="/science" className="mr">
               <span className="txt">Science</span>
             </Link>
-            <Link to="blog" className="mr">
+            <Link to="/product" className="mr">
+              <span className="txt">Product</span>
+            </Link>
+            <Link className="mr">
               <span className="txt">Blog</span>
             </Link>
           </Nav>

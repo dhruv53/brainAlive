@@ -3,16 +3,18 @@ import Vid from "./components/Vid";
 import UnderVid from "./components/UnderVid";
 import Solution from "./components/Solution";
 import Mod from "./components/Mod";
-// import Aud from "./components/Aud";
+import Footer from "../components/Footer";
+import Aud from "./components/Aud";
 
 function Home() {
   return (
     <>
-      {/* <Aud /> */}
+      <Aud />
       <Vid />
       <UnderVid />
       <Solution />
       <Mod />
+      <Footer />
     </>
   );
 }

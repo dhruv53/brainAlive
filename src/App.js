@@ -4,13 +4,14 @@ import AOS from "aos";
 import "./App.css";
 import TopNavbar from "./pages/components/TopNavbar";
 
-import Footer from "./pages/components/Footer";
+// import Footer from "./pages/components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Career from "./pages/Career/Career";
 import Contact from "./pages/Contact/Contact";
 import Science from "./pages/Science/Science";
+import Product from "./pages/Product/Product";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ApplyJob from "./pages/ApplyJob/ApplyJob";
 
@@ -26,6 +27,9 @@ function App() {
         <Switch>
           <Route path="/" exact>
             <Home />
+          </Route>
+          <Route path="/product">
+            <Product />
           </Route>
           <Route path="/about">
             <About />
@@ -43,7 +47,6 @@ function App() {
             <ApplyJob />
           </Route>
         </Switch>
-        <Footer />
       </div>
     </Router>
   );

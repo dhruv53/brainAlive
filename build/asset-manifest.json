@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.58a67efe.css",
-    "main.js": "/static/js/main.c61bba4e.js",
+    "main.css": "/static/css/main.88b8c58a.css",
+    "main.js": "/static/js/main.d1d11493.js",
+    "static/media/music.mp3": "/static/media/music.4375aef0bb0aa53f542e.mp3",
     "static/media/brain.m4v": "/static/media/brain.37465c3e24995977e961.m4v",
-    "static/media/science.png": "/static/media/science.b6df3056dd83836fedc3.png",
     "static/media/about.mp4": "/static/media/about.bbec34acc5ba9c0733c9.mp4",
     "static/media/vision-machine.png": "/static/media/vision-machine.f00406f31a9b621859d8.png",
+    "static/media/science.png": "/static/media/science.0dd2aa32dbba43adeda2.png",
     "static/media/about.jpg": "/static/media/about.1236f0340d92a2321818.jpg",
     "static/media/mission.jpg": "/static/media/mission.feeec8d77847077dbb8d.jpg",
     "static/media/why1.png": "/static/media/why1.1dc5fb24de621e10f560.png",
@@ -24,11 +25,11 @@
     "static/media/sol3.jpg": "/static/media/sol3.4b88ed5486c076907db5.jpg",
     "static/media/sol4.jpg": "/static/media/sol4.c508960f6caaa8b30444.jpg",
     "index.html": "/index.html",
-    "main.58a67efe.css.map": "/static/css/main.58a67efe.css.map",
-    "main.c61bba4e.js.map": "/static/js/main.c61bba4e.js.map"
+    "main.88b8c58a.css.map": "/static/css/main.88b8c58a.css.map",
+    "main.d1d11493.js.map": "/static/js/main.d1d11493.js.map"
   },
   "entrypoints": [
-    "static/css/main.58a67efe.css",
-    "static/js/main.c61bba4e.js"
+    "static/css/main.88b8c58a.css",
+    "static/js/main.d1d11493.js"
   ]
 }

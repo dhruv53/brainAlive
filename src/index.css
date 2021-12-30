@@ -27,23 +27,23 @@ h2 {
 }
 p {
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1rem !important;
   line-height: 1.6;
-  color: #65656e;
+  color: #65656e !important;
 }
 
-.inputGroup{
+.inputGroup {
   border-bottom: 1px solid white;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.inputGroup-icon{
+.inputGroup-icon {
   width: 10%;
 }
 
-.inputGroup-input{
+.inputGroup-input {
   width: 90%;
   background: none;
   border: none;
@@ -51,15 +51,17 @@ p {
   padding-bottom: 5%;
 }
 
-.input-option{
+.input-option {
   background-color: #00000085;
 }
 
-input:focus, textarea:focus, select:focus{
+input:focus,
+textarea:focus,
+select:focus {
   outline: none;
 }
 
-.submitButton{
+.submitButton {
   width: 100%;
   background: none;
   border: 1px solid white;
@@ -67,7 +69,7 @@ input:focus, textarea:focus, select:focus{
   color: white;
 }
 
-.submitButton:hover{
+.submitButton:hover {
   background-color: white;
   color: black;
 }
