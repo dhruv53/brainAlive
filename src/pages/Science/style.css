@@ -1,0 +1,45 @@
+.scienceHead {
+  background-image: url("./assets/science.png");
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.scienceTopRow {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.scienceTopCol {
+  text-align: left;
+  padding: 50px;
+}
+
+.scienceTopCol h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+.scienceTopCol p {
+  color: white;
+}
+
+/* .containerSecond {
+  background-image: url("./assets/science2.png");
+  background-size: cover;
+} */
+
+.colSecond {
+  padding-top: 50px;
+}
+
+.card {
+  margin: 15px;
+  /* background-color: pink; */
+  /* box-shadow: 3px 3px 3px #ccc; */
+}
+
+.card h5 {
+  color: black;
+  font-weight: 900;
+}

@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
+import AOS from "aos";
 import "./App.css";
 import TopNavbar from "./pages/components/TopNavbar";
 
@@ -10,7 +12,13 @@ import Career from "./pages/Career/Career";
 import Contact from "./pages/Contact/Contact";
 import Science from "./pages/Science/Science";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ApplyJob from "./pages/ApplyJob/ApplyJob";
+
 function App() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <Router>
       <div className="App">
@@ -30,6 +38,9 @@ function App() {
           </Route>
           <Route path="/science">
             <Science />
+          </Route>
+          <Route path="/applyjob/:profile">
+            <ApplyJob />
           </Route>
         </Switch>
         <Footer />
