@@ -1,10 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.88b8c58a.css",
-    "main.js": "/static/js/main.d1d11493.js",
+    "main.css": "/static/css/main.2bc5369f.css",
+    "main.js": "/static/js/main.b97f4af7.js",
     "static/media/music.mp3": "/static/media/music.4375aef0bb0aa53f542e.mp3",
     "static/media/brain.m4v": "/static/media/brain.37465c3e24995977e961.m4v",
+    "static/media/alpha.webp": "/static/media/alpha.233882db5e5202b40ec6.webp",
+    "static/media/beta.webp": "/static/media/beta.602312e29aefe2007335.webp",
+    "static/media/science2.png": "/static/media/science2.82ceb13fde7ab8e5048a.png",
+    "static/media/theta.webp": "/static/media/theta.8a3a57a7f0c3d148fd47.webp",
     "static/media/about.mp4": "/static/media/about.bbec34acc5ba9c0733c9.mp4",
+    "static/media/delta.webp": "/static/media/delta.bfd7140ccfc4b2318563.webp",
     "static/media/vision-machine.png": "/static/media/vision-machine.f00406f31a9b621859d8.png",
     "static/media/science.png": "/static/media/science.0dd2aa32dbba43adeda2.png",
     "static/media/about.jpg": "/static/media/about.1236f0340d92a2321818.jpg",
@@ -25,11 +30,11 @@
     "static/media/sol3.jpg": "/static/media/sol3.4b88ed5486c076907db5.jpg",
     "static/media/sol4.jpg": "/static/media/sol4.c508960f6caaa8b30444.jpg",
     "index.html": "/index.html",
-    "main.88b8c58a.css.map": "/static/css/main.88b8c58a.css.map",
-    "main.d1d11493.js.map": "/static/js/main.d1d11493.js.map"
+    "main.2bc5369f.css.map": "/static/css/main.2bc5369f.css.map",
+    "main.b97f4af7.js.map": "/static/js/main.b97f4af7.js.map"
   },
   "entrypoints": [
-    "static/css/main.88b8c58a.css",
-    "static/js/main.d1d11493.js"
+    "static/css/main.2bc5369f.css",
+    "static/js/main.b97f4af7.js"
   ]
 }

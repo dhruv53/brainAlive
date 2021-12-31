@@ -1,0 +1,27 @@
+.contTest {
+  background-image: url("../assets/science2.png");
+  background-size: cover;
+  padding-top: 50px;
+}
+
+.testCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.testCol h2 {
+  color: white;
+}
+
+.brainOsc {
+  color: white;
+  margin: 25px;
+}
+.one {
+  color: white;
+}
+.two {
+  color: white !important;
+}

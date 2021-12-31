@@ -7,6 +7,7 @@ import Hand from "./model/Hand";
 import Math from "./model/Math";
 import World from "./model/World";
 import Footer from "../components/Footer";
+import Test from "./components/Test";
 import "./style.css";
 
 function Science() {
@@ -64,6 +65,7 @@ function Science() {
             </Col>
           </Row>
         </Container>
+        <Test />
       </div>
       <Footer />
     </>

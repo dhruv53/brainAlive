@@ -14,7 +14,6 @@ import Science from "./pages/Science/Science";
 import Product from "./pages/Product/Product";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ApplyJob from "./pages/ApplyJob/ApplyJob";
-
 function App() {
   useEffect(() => {
     AOS.init();

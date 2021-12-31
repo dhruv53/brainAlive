@@ -35,6 +35,7 @@
 
 .card {
   margin: 15px;
+  min-width: 320px;
   /* background-color: pink; */
   /* box-shadow: 3px 3px 3px #ccc; */
 }
